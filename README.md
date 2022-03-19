@@ -9,6 +9,7 @@ Solved.ac: https://solved.ac/profile/lifecream
 3-1. BFS
 4. Priority_Queue(Heap)
 5. Dijkstra
-6. BitMask
-7. Knapsack
-8. Dynamic_Programming
+6. Bellman-Ford / Floyd-Warshall
+7. BitMask
+8. Knapsack
+9. Dynamic_Programming
