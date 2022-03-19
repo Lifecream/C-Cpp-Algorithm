@@ -1,5 +1,6 @@
 /*
 백준 4673번
+https://www.acmicpc.net/problem/4673
 */
 
 //algorithm: Bruteforcing
