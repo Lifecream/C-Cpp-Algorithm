@@ -1,0 +1,6 @@
+/*
+백준 번
+https://www.acmicpc.net/problem/
+*/
+
+//algorithm: 
