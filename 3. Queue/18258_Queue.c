@@ -1,5 +1,6 @@
 /*
-백준 108258번
+백준 18258번
+https://www.acmicpc.net/problem/18258
 */
 
 //algorithm: Queue
