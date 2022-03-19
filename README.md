@@ -9,5 +9,4 @@ Solved.ac: https://solved.ac/profile/lifecream
 5. Dijkstra
 6. Bellman-Ford / Floyd-Warshall
 7. BitMask
-8. Knapsack
-9. Dynamic_Programming
+8. Dynamic_Programming
