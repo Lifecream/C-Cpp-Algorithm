@@ -3,7 +3,7 @@
 https://www.acmicpc.net/problem/1520
 */
 
-//algorithm: Dynamic_Programming
+//algorithm: DFS
 
 #include <iostream>
 #include <stack>
