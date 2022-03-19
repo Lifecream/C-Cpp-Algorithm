@@ -1,5 +1,3 @@
-I have collected C++ algorithms and data structure which I coded over the past three years.
-
 Baekjoon: https://www.acmicpc.net/user/lifecream
 
 Solved.ac: https://solved.ac/profile/lifecream
