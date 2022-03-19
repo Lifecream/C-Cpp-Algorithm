@@ -3,7 +3,7 @@
 https://www.acmicpc.net/problem/11866
 */
 
-//algorithm: Stack
+//algorithm: Queue
 
 #include <iostream>
 #include <queue>
