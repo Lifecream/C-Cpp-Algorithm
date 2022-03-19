@@ -3,7 +3,7 @@
 https://www.acmicpc.net/problem/11286
 */
 
-//algorithm: BFS
+//algorithm: Priority_Queue(Heap)
 
 #include <iostream>
 #include <algorithm>
