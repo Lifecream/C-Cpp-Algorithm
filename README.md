@@ -8,4 +8,4 @@ Solved.ac: https://solved.ac/profile/lifecream
 4. Priority Queue(Heap)
 5. Graph_Traversal
 6. BitMask
-7. 7. Dynamic Programming
+7. Dynamic Programming
