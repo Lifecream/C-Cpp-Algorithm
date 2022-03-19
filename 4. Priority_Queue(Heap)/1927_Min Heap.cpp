@@ -1,5 +1,6 @@
 /*
 백준 1927번
+https://www.acmicpc.net/problem/1927
 */
 
 //algorithm: Priority_Queue(Heap)
