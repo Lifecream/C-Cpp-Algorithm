@@ -2,7 +2,7 @@
 백준 10828
 */
 
-//Data Structure: Stack
+//algorithm: Stack
 
 #include <stdio.h>
 
