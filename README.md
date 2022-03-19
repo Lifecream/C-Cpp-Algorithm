@@ -2,7 +2,7 @@ Baekjoon: https://www.acmicpc.net/user/lifecream
 
 Solved.ac: https://solved.ac/profile/lifecream
 
-1. Brute Force
+1. Bruteforcing
 2. Stack (DFS)
 3. Queue (BFS)
 4. Priority_Queue(Heap)
