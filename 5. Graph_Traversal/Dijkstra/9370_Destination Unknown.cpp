@@ -18,7 +18,7 @@ using namespace std;
 struct CMP {
 	int node;
 	int cost;
-	int passed; //passed = 0 -> (v1,v2) edge x / passed = 1 -> (v1,v2) edge o
+	int passed;
 	bool operator()(CMP a, CMP b) {
 		if (a.cost > b.cost) return true;
 		else return false;
@@ -27,7 +27,7 @@ struct CMP {
 
 int T, n, m, t, s, g, h;
 vector<CMP> graph[MAX_SIZE];
-bool visited[MAX_SIZE][2]; //visited[][0] -> passed = false; visited[][1] -> passed = true;
+bool visited[MAX_SIZE][2];
 bool condidate[MAX_SIZE];
 
 void check_dist(int (*arr)[2]) {
