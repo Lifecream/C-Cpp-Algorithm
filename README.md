@@ -8,3 +8,4 @@
 5. Graph Traversal
 6. BitMask
 7. Dynamic Programming
+8. Segment Tree
