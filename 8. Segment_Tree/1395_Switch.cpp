@@ -7,7 +7,6 @@ https://www.acmicpc.net/problem/1395
 
 #include <iostream>
 #include <algorithm>
-#include <cmath>
 #define MAX_SIZE 100001
 
 using namespace std;
