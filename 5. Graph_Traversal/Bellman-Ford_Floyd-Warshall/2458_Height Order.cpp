@@ -7,7 +7,6 @@ https://www.acmicpc.net/problem/2458
 
 #include <iostream>
 #include <algorithm>
-#include <queue>
 #define MAX_SIZE 501
 #define INF 987654321
 
@@ -15,7 +14,6 @@ using namespace std;
 
 int n, m;
 int dist[MAX_SIZE][MAX_SIZE];
-queue<int> temp;
 
 void Floyd_Warshall(void) {
     for (int mid = 1; mid <= n; mid++) {
