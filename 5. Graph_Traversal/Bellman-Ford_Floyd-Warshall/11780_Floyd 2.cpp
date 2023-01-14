@@ -33,13 +33,14 @@ void Print_Route(int start, int end) {
 void output(void) {
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= n; j++) {
-            cout << dist[i][j] << ' ';
+            if (dist[i][j] == INF) cout << 0 << ' ';
+            else cout << dist[i][j] << ' ';
         }
         cout << '\n';
     }
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= n; j++) {
-            if (i == j) {
+            if (i == j || dist[i][j] == INF) {
                 cout << 0 << '\n';
                 continue;
             }
