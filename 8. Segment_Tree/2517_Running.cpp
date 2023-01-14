@@ -14,6 +14,7 @@ using namespace std;
 
 int n;
 vector<int> v;
+vector<int> index;
 
 struct segTree {
     long long tree[4 * MAX_SIZE];
@@ -39,13 +40,19 @@ struct segTree {
 int main(void) {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    long long ans = 0;
     cin >> n;
-    for (int i = 1; i <= n; i++) {
+    for (int i = 0; i < n; i++) {
         int temp;
         cin >> temp;
-        
+        v.push_back(temp);
+        index.push_back(temp);
     }
-    cout << ans;
+    sort(index.begin(), index.end());
+    index.erase(unique(index.begin(), index.end()), index.end());
+    for (int i = 1; i <= n; i++) {
+        int temp = lower_bound(index.begin(), index.end(), v[i - 1]) - index.begin() + 1;
+        cout << i - tree.query(1, n, 1, 1, temp - 1) << '\n';
+        tree.update(1, n, 1, temp);
+    }
     return 0;
 }
